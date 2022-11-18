@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sherlozk.github.io/about/index.html</loc>
+    
+    <lastmod>2022-11-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sherlozk.github.io/2018/02/14/traceDump/</loc>
     
     <lastmod>2022-11-18</lastmod>
@@ -146,15 +155,6 @@
   </url>
   
   <url>
-    <loc>https://sherlozk.github.io/about/index.html</loc>
-    
-    <lastmod>2022-11-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://sherlozk.github.io/2016/04/21/Guitar/</loc>
     
     <lastmod>2022-11-18</lastmod>
@@ -245,14 +245,14 @@
 
   
   <url>
-    <loc>https://sherlozk.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://sherlozk.github.io/tags/iOS%E9%80%86%E5%90%91/</loc>
     <lastmod>2022-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://sherlozk.github.io/tags/iOS%E9%80%86%E5%90%91/</loc>
+    <loc>https://sherlozk.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2022-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -273,14 +273,14 @@
   </url>
   
   <url>
-    <loc>https://sherlozk.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://sherlozk.github.io/tags/Linux/</loc>
     <lastmod>2022-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://sherlozk.github.io/tags/Linux/</loc>
+    <loc>https://sherlozk.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
