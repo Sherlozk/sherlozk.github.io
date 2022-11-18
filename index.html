@@ -1,1062 +1,319 @@
-
-<!doctype html>
-<html class="theme-next use-motion theme-next-mala">
-<head><meta name="generator" content="Hexo 3.9.0">
-  
-
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-
-
-
-
-
-
-  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5">
-
-
-
-  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-
-
-<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.5.1">
-
-
-    <meta name="description" content="全栈开发, 最近喜欢玩极限飞盘">
-
-
-
-  <meta name="keywords" content="Hexo,Mala">
-
-
-
-  <link rel="alternate" href="/atom.xml" title="Sherlock" type="application/atom+xml">
-
-
-
-  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1">
-
-
-<meta name="description" content="全栈开发, 最近喜欢玩极限飞盘">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Sherlozk - trace your love</title><meta name="author" content="Sherlozk"><meta name="copyright" content="Sherlozk"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="全栈开发, 最近喜欢玩极限飞盘">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Sherlock">
+<meta property="og:title" content="Sherlozk">
 <meta property="og:url" content="https://sherlozk.github.io/index.html">
-<meta property="og:site_name" content="Sherlock">
+<meta property="og:site_name" content="Sherlozk">
 <meta property="og:description" content="全栈开发, 最近喜欢玩极限飞盘">
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://sherlozk.github.io/images/IMG_3761.jpg">
+<meta property="article:author" content="Sherlozk">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Sherlock">
-<meta name="twitter:description" content="全栈开发, 最近喜欢玩极限飞盘">
+<meta name="twitter:image" content="https://sherlozk.github.io/images/IMG_3761.jpg"><link rel="shortcut icon" href="/images/IMG_3761.jpg"><link rel="canonical" href="https://sherlozk.github.io/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Sherlozk',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-11-18 20:35:21'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-<script type="text/javascript" id="hexo.configuration">
-  var CONFIG = {
-    scheme: 'Mala',
-    sidebar: 'post'
-  };
-</script>
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
 
-  <title> Sherlock </title>
-</head>
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
-
-  <!--[if lte IE 8]>
-  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
-           style='margin-left:auto;margin-right:auto;display: block;'/>
-    </a>
-  </div>
-<![endif]-->
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-
-
-
-  <div class="container one-column 
-   page-home 
-">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><h1 class="site-meta">
-  <span class="logo-line-before"><i></i></span>
-  <a href="/" class="brand" rel="start">
-      <span class="logo">
-        <i class="icon-next-logo"></i>
-      </span>
-      <span class="site-title">trace your love</span>
-  </a>
-  <span class="logo-line-after"><i></i></span>
-</h1>
-
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
-
-<nav class="site-nav">
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
-
-  
-    <ul id="menu" class="menu ">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            <i class="menu-item-icon icon-next-home"></i> <br>
-            Home
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            <i class="menu-item-icon icon-next-categories"></i> <br>
-            Categories
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            <i class="menu-item-icon icon-next-archives"></i> <br>
-            Archives
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            <i class="menu-item-icon icon-next-tags"></i> <br>
-            Tags
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            <i class="menu-item-icon icon-next-about"></i> <br>
-            About
-          </a>
-        </li>
-      
-
-      
-      
-    </ul>
-  
-
-  
-</nav>
-
- </div>
-    </header>
-
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-      
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
 
-      
-
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Sherlozk" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/IMG_3761.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">23</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间线</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/images/cover.JPEG')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Sherlozk</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间线</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Sherlozk</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/Sherlozk" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:515538484@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2020/02/13/haha/" title="与自己的对话"><img class="post_bg" src="/2020/02/13/haha/psb.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="与自己的对话"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/02/13/haha/" title="与自己的对话">与自己的对话</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-02-12T18:46:36.000Z" title="发表于 2020-02-13 02:46:36">2020-02-13</time></span></div><div class="content">今天聊天，从工作聊到近况聊到从前再到生活人生。
+让我又回想了一次许许多多的事情。趁余兴还在，记录一下吧。
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div id="content" class="content"> 
-  <section id="posts" class="posts-expand">
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2020/02/13/haha/" itemprop="url">
-                与自己的对话
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2020-02-13T02:46:36+08:00" content="2020-02-13">
-            2020-02-13
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <p>今天聊天，从工作聊到近况聊到从前再到生活人生。</p>
-<p>让我又回想了一次许许多多的事情。趁余兴还在，记录一下吧。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2020/02/13/haha/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2018/02/14/traceDump/" itemprop="url">
-                逆向从 Instruments 中获取 GPU 数据
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2018-02-14T23:12:36+08:00" content="2018-02-14">
-            2018-02-14
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody">
-            
-             背景: RTMP SDK需要获取硬编硬解时候的GPU数据,第一时间想起了TraceParser, 但是TraceParser不支持GPU Driver模板. 于是想着能不能扩展TraceParser模板. 发现main.m文件只有寥寥几行代码,完全不知道做了什么, 但是google和km之后发现应
-            ...
-          </span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2018/02/14/traceDump/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2017/10/22/ios-hook/" itemprop="url">
-                不懂汇编,如何逆向(iOS)
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2017-10-22T12:10:38+08:00" content="2017-10-22">
-            2017-10-22
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <p><strong> $ 写给像我一样的小白</strong></p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/10/22/ios-hook/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2017/08/27/party/" itemprop="url">
-                闭上眼,你看到的更多
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2017-08-27T01:00:50+08:00" content="2017-08-27">
-            2017-08-27
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <p><img src="/2017/08/27/party/IMG_4341.JPG" alt></p>
-<p>今天以一个志愿者的身份参加了一场特殊的音乐会,地点在深圳市残疾人综合服务中心的13楼.</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/08/27/party/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2017/08/23/ARM-base/" itemprop="url">
-                ARM汇编基础
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2017-08-23T19:55:24+08:00" content="2017-08-23">
-            2017-08-23
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <p>在高级语言，如OC、C中，操作的对象是变量，而在ARM汇编语言中，操作的对象是<code>寄存器（register）</code>、<code>内存（RAM）</code>、<code>栈（stack）</code>。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/08/23/ARM-base/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2017/08/04/lmf-md/" itemprop="url">
-                生活、音乐、远方
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2017-08-04T10:26:54+08:00" content="2017-08-04">
-            2017-08-04
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody">
-            
-            
-生活我每天上班几乎都会坐车，打车或是走到深大小西门坐深大的电瓶车到北门，我喜欢坐车的时候发呆，头靠在窗边，目光总不在近处。每天都在走着同一条路，但是对沿途的建筑、人和事都一概不知，那个奇形怪状的雕塑有什么故事，邻街的马路是否一样拥堵，看起来装修豪华的餐厅食物味道如何。有时候，我又只想看看我喜欢的她
-            ...
-          </span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/08/04/lmf-md/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2017/03/25/NewBegin/" itemprop="url">
-                致我们终将逝去的浪荡
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2017-03-25T19:12:32+08:00" content="2017-03-25">
-            2017-03-25
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody">
-            
-            Nothing come from nothing
+
+可能有一部分的人跟我一样，工作的辛苦反而是久违的放松。
+虽说我成长在教师家庭，但从小到大过得却不那么像在书香门第。总在奔波于生计，父亲爱摄影，为了把相机和胶卷的钱赚回来，他总带着我去给学生们拍生活照，那时候艺术照还是个奢侈品，但我们生活照只收两毛钱一张，『过胶』的话三毛钱。那时候中学生的一周零花钱是五毛，愿意拿两毛到三毛来留下自己模样的人络绎不绝。结果半年不到就把钱给赚回来了。
+按理说，这样应该是赚到了第一桶金，生活自然会宽松些。然而好景不长，爷爷肝癌晚期，所有的钱都拿去治病，仍是不够。可是在生命面前，欠再多的钱，也不愿放弃。时至今日，我仍然会不时梦到在一条长提上，一辆双杠自行车，一位白发老人，载着一个黄发小儿，江水是红色的，因为斜阳在山那头…还有他在被宣告无可救治之后，回到家中，在病榻前最后教我的那首《静夜诗》…以及那个父亲叫我不用去上学，穿好衣服回老家的下午，我仿佛懂得了些什么。那年我六岁。
+
+我经常抬头望，明月我看到了，可哪颗星星是你。
+
+后来我们还干起了其他行当：小卖部 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2018/02/14/traceDump/" title="逆向从 Instruments 中获取 GPU 数据"><img class="post_bg" src="/images/IMG_2514.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="逆向从 Instruments 中获取 GPU 数据"></a></div><div class="recent-post-info"><a class="article-title" href="/2018/02/14/traceDump/" title="逆向从 Instruments 中获取 GPU 数据">逆向从 Instruments 中获取 GPU 数据</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2018-02-14T15:12:36.000Z" title="发表于 2018-02-14 23:12:36">2018-02-14</time></span></div><div class="content"> 背景: RTMP SDK需要获取硬编硬解时候的GPU数据,第一时间想起了TraceParser, 但是TraceParser不支持GPU Driver模板. 于是想着能不能扩展TraceParser模板. 发现main.m文件只有寥寥几行代码,完全不知道做了什么, 但是google和km之后发现应该是采用了反序列化的方式来dump出数据. 缺点很明显, 需要自己实现NSCoding,还需要先将.trace文件解压出.run文件. 不知道结构无从下手.
+在 github 上发现有一种新的思路TraceUtility, 通过调用 Undocument API 去解析 Trace 文件.下面结合 Hopper 分析Instruments看看. 
+
+在逆向过程中发现打开文档用的是NSDocument,-showTemplateChooser:模板选择器. 这意味着一个trace文件是通过NSDocument加上自定义文档类型(模板)来储存的, 当然这个文件类型并不会存在于MIME当中的. 
+在-initialize:中对 Instruments 做了初始化, 包括一些链接 XCode 中 S ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2017/10/22/ios-hook/" title="不懂汇编,如何逆向(iOS)"><img class="post_bg" src="/images/IMG_2514.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="不懂汇编,如何逆向(iOS)"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/10/22/ios-hook/" title="不懂汇编,如何逆向(iOS)">不懂汇编,如何逆向(iOS)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2017-10-22T04:10:38.000Z" title="发表于 2017-10-22 12:10:38">2017-10-22</time></span></div><div class="content">** $ 写给像我一样的小白**
+
+
+
+
+0x1 逆向一个APP有哪些步骤(不越狱)
+砸壳
+dump出头文件
+分析功能界面
+hopper || iDA 分析伪代码
+写hook
+打包动态库
+注入动态库到APP
+APP重签名
+安装到手机上
+
+MonkeyDevMonkeyDev是一个xcode插件, 此处先膜一下@庆哥
+原有iOSOpenDev的升级，非越狱插件开发集成神器！
+
+- 可以使用Xcode开发CaptainHook Tweak、Logos Tweak 和 Command-line Tool，在越狱机器开发插件，这是原来iOSOpenDev功能的迁移和改进。
+- 只需拖入一个砸壳应用，自动集成class-dump、restore-symbol、Reveal、Cycript和注入的动态库并重签名安装到非越狱机器。
+- 支持调试自己编写的动态库和第三方App
+- 支持通过CocoaPods第三方应用集成SDK以及非越狱插件，简单来说就是通过CocoaPods搭建了一个非越狱插件商店。
+
+庆哥的github如是说.
+MonkeyDev解决了上面说到的50%的步骤, 再外加一个动态调试. ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2017/08/27/party/" title="闭上眼,你看到的更多"><img class="post_bg" src="/2017/08/27/party/IMG_4341.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="闭上眼,你看到的更多"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/08/27/party/" title="闭上眼,你看到的更多">闭上眼,你看到的更多</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2017-08-26T17:00:50.000Z" title="发表于 2017-08-27 01:00:50">2017-08-27</time></span></div><div class="content">今天以一个志愿者的身份参加了一场特殊的音乐会,地点在深圳市残疾人综合服务中心的13楼.
+
+
+我参加过很多音乐会, 但都是以观众或者表演者的身份, 一周前看到事业群发来邮件, 招募视障者音乐会工作人员, 心头触动了一下,就点击了报名. 因为我觉得,对于同样热爱音乐的他们, 或许我该做些什么. 
+这场音乐会,没有直播,没有炒作,甚至连DJ都是我这样的新手. 表演者们,小的只有几岁, 年长的我叫一声老爷爷老奶奶不过分. 他们都让人意外地好相处,好商量,伴奏找不到? 没关系,我清唱.
+震撼和开心这两个词可以概括我这一天的感受.
+至此刻,我心里依然无法平静. 我在音控室, 很多次都是站起来听他们演唱的. 除去了所有的舞台风格, 表现形式……当你闭上眼睛,去感受他们给你传达的东西,真真切切能感受到,他们在并不完整的人生当中, 萃取出来的那种乐观,坚强,豁达. 真想知道蓝天白云,车水马龙,在他们脑海中都是怎样的一种表达. 
+音乐本就不是用来看的,用眼睛去量度就狭隘了.
+一天下来我不敢有丝毫怠慢,播放伴奏,调音,暖场,设备调整….因为我知道, 为了台上这几分钟,需要倾注多少热爱. 以至于我回到公司之后 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2017/08/23/ARM-base/" title="ARM汇编基础"><img class="post_bg" src="/images/IMG_2514.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ARM汇编基础"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/08/23/ARM-base/" title="ARM汇编基础">ARM汇编基础</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2017-08-23T11:55:24.000Z" title="发表于 2017-08-23 19:55:24">2017-08-23</time></span></div><div class="content">在高级语言，如OC、C中，操作的对象是变量，而在ARM汇编语言中，操作的对象是寄存器（register）、内存（RAM）、栈（stack）。
+
+
+寄存器 - 可以看成CPU自带的变量，数量有限，需要更多的时候会把他们放到内存中
+内存 - 变量存储的主要载体，容量大，但是对内存的操作要比对寄存器的操作慢得多
+栈 - 其实本质也是内存，有特定的读写顺序：先进后出,而且ARM的栈是满递减(Full Descending)的,向下增长,新的变量会被存放到栈底的位置,而且越靠近栈底,内存地址越小. 
+Continues……
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2017/08/04/lmf-md/" title="生活、音乐、远方"><img class="post_bg" src="/2017/08/04/lmf-md/music.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="生活、音乐、远方"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/08/04/lmf-md/" title="生活、音乐、远方">生活、音乐、远方</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2017-08-04T02:26:54.000Z" title="发表于 2017-08-04 10:26:54">2017-08-04</time></span></div><div class="content">
+
+生活我每天上班几乎都会坐车，打车或是走到深大小西门坐深大的电瓶车到北门，我喜欢坐车的时候发呆，头靠在窗边，目光总不在近处。每天都在走着同一条路，但是对沿途的建筑、人和事都一概不知，那个奇形怪状的雕塑有什么故事，邻街的马路是否一样拥堵，看起来装修豪华的餐厅食物味道如何。有时候，我又只想看看我喜欢的她在哪里留下什么话，希望全世界只有她……
+几乎每天都在各种想象中度过这么一段时光。
+音乐我是一个对音乐有瘾的人，因为它总能使我异常兴奋。而且我喜欢无拘无束的街头音乐。以前住在一个叫大学城的孤岛，周末的公交和地铁不会让你有想出去的欲望。音乐成了唯一的消遣，谁能告诉我，体育馆闪烁的灯光是否是在开live show，城北和中心湖的卖唱大叔大家喜不喜欢，吉他弹得很好的小哥今天在哪条小路，我会加入他们也会拿着吉他走上街头，我们不在乎彼此的曾经，这一刻只用音乐交流。但经常缺少一个很显眼的东西告诉其他人或者告诉我，这里有音乐，你要来吗？
+远方『到此一游』似乎已经是中国人甩不掉的一个flag。我原谅你有感，又不善措辞。但那又丑又不显眼的几个字，我看不出任何个人情怀，还期望后来者，能有所同感？　
+在火车环境变 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2017/03/25/NewBegin/" title="致我们终将逝去的浪荡"><img class="post_bg" src="/2017/03/25/NewBegin/img.PNG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="致我们终将逝去的浪荡"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/03/25/NewBegin/" title="致我们终将逝去的浪荡">致我们终将逝去的浪荡</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2017-03-25T11:12:32.000Z" title="发表于 2017-03-25 19:12:32">2017-03-25</time></span></div><div class="content">Nothing come from nothing
 早上踩着九点出门，避开所有的阳光走向公司。二月份的深圳，海风恰好能把你的鼻子冻红。
 这是我离职回校完成毕业设计的日子，毕设不过是个借口，才离开两个月我才发现我是有多么想念这里的一切。
 生活就是你在深圳想念着广州。
-离校那天，我哭了，比谈一场四年的恋
-            ...
-          </span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/03/25/NewBegin/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2016/11/01/iproxy/" itemprop="url">
-                使用iproxy通过USB将iPhone的端口映射到电脑
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2016-11-01T17:41:12+08:00" content="2016-11-01">
-            2016-11-01
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody">
-            
-            在研究ATX的过程中,发现通过WIFI来连接发送指令,会有延迟,响应不够迅速.所以如果可以通过usb代替进行连接,效率会有很大的提高
+离校那天，我哭了，比谈一场四年的恋爱，最后分手了哭得还要惨，只是没有任何声音发出而已。我在开车，副驾的表弟在装作睡觉。最后那个孤岛终于也从地图上被移走了。我没有回头，不忍回头。
+生活的孤独才是一个人前行最好的环境，不用去交新的女朋友，没有时刻要一起玩才能维持关系的兄弟，没有爸妈在耳边的唠叨。在陌生的城市，除了时不时心里传来的孤独感，没有其他事情可以打扰到我。我可以一点钟下班，因为家里没有人等我回家。我可以晚上通宵周末睡觉，因为没有人拉我出去玩。
+但是这样的生活久了，会让你怀疑人生。
+所以，我必须去交一些朋友，往心里去的那种。时间给我们的间隔，带来的是相聚时的热泪盈眶。当然这也包括我深爱的家人。他们作为一份礼物珍藏在我心里，怀疑人生的时候，想想他们。
+我是一个半浪漫主义者，这是我天生的理性决定的。我曾经希望能像福尔摩斯一样完全 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2016/11/01/iproxy/" title="使用iproxy通过USB将iPhone的端口映射到电脑"><img class="post_bg" src="/images/IMG_2514.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="使用iproxy通过USB将iPhone的端口映射到电脑"></a></div><div class="recent-post-info"><a class="article-title" href="/2016/11/01/iproxy/" title="使用iproxy通过USB将iPhone的端口映射到电脑">使用iproxy通过USB将iPhone的端口映射到电脑</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2016-11-01T09:41:12.000Z" title="发表于 2016-11-01 17:41:12">2016-11-01</time></span></div><div class="content">在研究ATX的过程中,发现通过WIFI来连接发送指令,会有延迟,响应不够迅速.所以如果可以通过usb代替进行连接,效率会有很大的提高
 iproxy是usbmuxd附带的一个小工具,它的作用是将设备的某个端口映射到电脑的某个端口mac下可以通过brew安装
 1brew install usbmuxd
 
-            ...
-          </span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/11/01/iproxy/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
+用法很简单:
 
-    <footer class="post-footer">
-      
+第一个参数是你要映射到的电脑端口
+第二个是iPhone的端口
+UDID一般不用填,会自动获取,不过多设备连接时,需要用于区分设备
 
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2016/11/01/atx/" itemprop="url">
-                ATX自动化测试框架-iOS
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2016-11-01T16:18:22+08:00" content="2016-11-01">
-            2016-11-01
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h3 id="要用到的两大框架"><a href="#要用到的两大框架" class="headerlink" title="要用到的两大框架"></a>要用到的两大框架</h3><p><code>ATX</code>: AutomatorX简称,本文主要讨论的iOS自动化测试的框架<br><code>WDA</code>: WebDriverAgent的简称，是Facebook为苹果开发的一个自动化测试框架<br>优点(对比Appium)<br>引用作者原话:</p>
-<pre><code>1. ATX依赖比较少，安装快，上手也快
+iproxy的作用很丰富,一般搞越狱的大牛,会用来映射iPhone的22端口(ssh端口),我使用atx的过程中使用了iPhone的8100端口所以直接指令如下:
+1iproxy 2222 8100
+相应的,代码或者脚本里面原本写设备IP的地方就要改成localhost:2222
+—-&gt;
+这样也就没有了很多手机必须要跟电脑在同一网段的尴尬情况
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2016/11/01/atx/" title="ATX自动化测试框架-iOS"><img class="post_bg" src="/images/IMG_2514.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ATX自动化测试框架-iOS"></a></div><div class="recent-post-info"><a class="article-title" href="/2016/11/01/atx/" title="ATX自动化测试框架-iOS">ATX自动化测试框架-iOS</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2016-11-01T08:18:22.000Z" title="发表于 2016-11-01 16:18:22">2016-11-01</time></span></div><div class="content">要用到的两大框架ATX: AutomatorX简称,本文主要讨论的iOS自动化测试的框架WDA: WebDriverAgent的简称，是Facebook为苹果开发的一个自动化测试框架优点(对比Appium)引用作者原话:
+1. ATX依赖比较少，安装快，上手也快
 2. 可以测试第三方应用，比如微信，网易新闻之类
 3. 更新方便，可以使用pip直接更新应用
 4. 集成图像识别，可以解决仅靠UI无法定位识别的问题
 5. 集成测试报告
 6. 由知名企业网易的游戏测试开发团队开发（其实就是我们开发的），可以比appium更及时的响应需求，还可以用中文交流和沟通。
-</code></pre>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/11/01/atx/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
 
 
-    
-      
+WebDeiverAgent使用ATX之前要先安装WebDeiverAgent(以下简称WDA).其实也很简单:
+1. 到github上面把包下了
+2. 进工程的根目录,运行./Scripts/bootstrap.sh下载依赖库(要用到Carthage和npm)
+3. 打开工程文件WebDriverAgent.xcodeproj
+4. Scheme选择WebDriverAgentRunner
+5. 设备选择模拟器或者iPhone都 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2016/08/19/sql/" title="常用SQL语句"><img class="post_bg" src="/images/IMG_2514.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常用SQL语句"></a></div><div class="recent-post-info"><a class="article-title" href="/2016/08/19/sql/" title="常用SQL语句">常用SQL语句</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2016-08-19T08:32:21.000Z" title="发表于 2016-08-19 16:32:21">2016-08-19</time></span></div><div class="content">SQL语句的种类
+数据定义语句（DDL：Data Definition Language）
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2016/08/19/sql/" itemprop="url">
-                常用SQL语句
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2016-08-19T16:32:21+08:00" content="2016-08-19">
-            2016-08-19
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h1 id="SQL语句的种类"><a href="#SQL语句的种类" class="headerlink" title="SQL语句的种类"></a>SQL语句的种类</h1><ul>
-<li><p>数据定义语句（DDL：Data Definition Language）</p>
-<ul>
-<li>包括create和drop等操作；</li>
-<li>在数据库中创建新表或删除表（create table或 drop table）；</li>
-</ul>
-</li>
-<li><p>数据操作语句（DML：Data Manipulation Language）</p>
-<ul>
-<li>包括insert、update、delete等操作</li>
-</ul>
-</li>
-<li><p>数据查询语句（DQL：Data Query Language）</p>
-<ul>
-<li>可以用于查询获得表中的数据</li>
-<li>关键字select是DQL（也是所有SQL）用得最多的操作</li>
-<li>其他DQL常用的关键字有where，order by，group by和having</li>
-</ul>
-</li>
-</ul>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/19/sql/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
+包括create和drop等操作；
+在数据库中创建新表或删除表（create table或 drop table）；
 
 
-    
-  </section>
+数据操作语句（DML：Data Manipulation Language）
 
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">&raquo;</a>
-  </nav>
-
- </div>
-
-        
-      </div>
-
-      
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      <section class="site-overview">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="/images/IMG_3761.jpg" alt="Locker" itemprop="image">
-          <p class="site-author-name" itemprop="name">Locker</p>
-        </div>
-        <p class="site-description motion-element" itemprop="description">全栈开发, 最近喜欢玩极限飞盘</p>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">23</span>
-              <span class="site-state-item-name">posts</span>
-            </a>
-          </div>
-
-          <div class="site-state-item site-state-categories">
-            <a href="/categories">
-              <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">categories</span>
-              </a>
-          </div>
-
-          <div class="site-state-item site-state-tags">
-            <a href="/tags">
-              <span class="site-state-item-count">20</span>
-              <span class="site-state-item-name">tags</span>
-              </a>
-          </div>
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="menu-item-icon icon-next-feed"></i>
-              RSS
-            </a>
-          </div>
-        
-
-        <div class="links-of-author motion-element">
-          
-        </div>
-
-        <div class="links-of-friendly motion-element">
-          
-        </div>
-
-        
-        
-
-      </section>
-
-      
-
-    </div>
-  </aside>
+包括insert、update、delete等操作
 
 
-    </main>
+数据查询语句（DQL：Data Query Language）
 
-    <footer id="footer" class="footer">
-      <div class="footer-inner"> <div class="copyright">
-  
-  &copy; &nbsp; 
-  <span itemprop="copyrightYear">2022
-  </span>
-  <span class="with-love">
-    <i class="icon-next-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Locker
-  </span>
-</div>
-
-<div class="powered-by">
-  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
-</div>
-
-<div class="theme-info">
-  Theme by <a class="theme-link" href="https://idhyt.github.io">idhyt</a>.<a class="theme-link" href="https://github.com/idhyt/hexo-theme-next/tree/magiclamp">Mala</a>
-</div>
-
-<!-- busuanzi -->
-
-
-
- </div>
-    </footer>
-
-    <div class="back-to-top"></div>
-  </div>
-
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  
-  
-  
-    
-  
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.1"></script>
-
-
-  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.1"></script>
-  
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" src="/js/motion_global.js?v=0.4.5.1" id="motion.global"></script>
+可以用于查询获得表中的数据
+关键字select是DQL（也是所有SQL）用得最多的操作
+其他DQL常用的关键字有where，order by，group by和having
 
 
 
 
-  <script type="text/javascript" src="/js/nav-toggle.js?v=0.4.5.1"></script>
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
-  
+DDL语句
+删除表
+  DROP TABLE IF EXISTS &#39;表名&#39;;
 
-  <script type="text/javascript">
-    $(document).ready(function () {
-      if (CONFIG.sidebar === 'always') {
-        displaySidebar();
+
+创建表
+  CREATE TABLE IF NOT EXISTS &#39;表名&#39; 
+  ( &#39;字段名&#39; 类型(INTEGER, REAL, TEXT, BLOB) NOT NULL 不允许为空 PRIMARY KEY 主键 AUTOINCREMENT 自增长, &#39;字 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="page-number" href="/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/IMG_3761.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Sherlozk</div><div class="author-info__description">全栈开发, 最近喜欢玩极限飞盘</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">23</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" href="https://github.com/Sherlozk"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Sherlozk" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:515538484@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">一扇不愿意为你开的门, 一直敲是不礼貌的</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2020/02/13/haha/" title="与自己的对话"><img src="/2020/02/13/haha/psb.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="与自己的对话"/></a><div class="content"><a class="title" href="/2020/02/13/haha/" title="与自己的对话">与自己的对话</a><time datetime="2020-02-12T18:46:36.000Z" title="发表于 2020-02-13 02:46:36">2020-02-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2018/02/14/traceDump/" title="逆向从 Instruments 中获取 GPU 数据"><img src="/images/IMG_2514.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="逆向从 Instruments 中获取 GPU 数据"/></a><div class="content"><a class="title" href="/2018/02/14/traceDump/" title="逆向从 Instruments 中获取 GPU 数据">逆向从 Instruments 中获取 GPU 数据</a><time datetime="2018-02-14T15:12:36.000Z" title="发表于 2018-02-14 23:12:36">2018-02-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2017/10/22/ios-hook/" title="不懂汇编,如何逆向(iOS)"><img src="/images/IMG_2514.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="不懂汇编,如何逆向(iOS)"/></a><div class="content"><a class="title" href="/2017/10/22/ios-hook/" title="不懂汇编,如何逆向(iOS)">不懂汇编,如何逆向(iOS)</a><time datetime="2017-10-22T04:10:38.000Z" title="发表于 2017-10-22 12:10:38">2017-10-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2017/08/27/party/" title="闭上眼,你看到的更多"><img src="/2017/08/27/party/IMG_4341.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="闭上眼,你看到的更多"/></a><div class="content"><a class="title" href="/2017/08/27/party/" title="闭上眼,你看到的更多">闭上眼,你看到的更多</a><time datetime="2017-08-26T17:00:50.000Z" title="发表于 2017-08-27 01:00:50">2017-08-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2017/08/23/ARM-base/" title="ARM汇编基础"><img src="/images/IMG_2514.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ARM汇编基础"/></a><div class="content"><a class="title" href="/2017/08/23/ARM-base/" title="ARM汇编基础">ARM汇编基础</a><time datetime="2017-08-23T11:55:24.000Z" title="发表于 2017-08-23 19:55:24">2017-08-23</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Blog/" style="font-size: 1.1em; color: #999">Blog</a> <a href="/tags/HTTP/" style="font-size: 1.1em; color: #999">HTTP</a> <a href="/tags/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 1.1em; color: #999">Linux服务器</a> <a href="/tags/SQL/" style="font-size: 1.1em; color: #999">SQL</a> <a href="/tags/Terminal/" style="font-size: 1.1em; color: #999">Terminal</a> <a href="/tags/iOS/" style="font-size: 1.1em; color: #999">iOS</a> <a href="/tags/iOS%E9%80%86%E5%90%91/" style="font-size: 1.23em; color: #999ea6">iOS逆向</a> <a href="/tags/markdown/" style="font-size: 1.1em; color: #999">markdown</a> <a href="/tags/pygame/" style="font-size: 1.1em; color: #999">pygame</a> <a href="/tags/python/" style="font-size: 1.37em; color: #99a4b2">python</a> <a href="/tags/%E5%90%89%E4%BB%96/" style="font-size: 1.1em; color: #999">吉他</a> <a href="/tags/%E6%84%8F%E4%B9%89/" style="font-size: 1.1em; color: #999">意义</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.1em; color: #999">数据结构</a> <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 1.1em; color: #999">测试</a> <a href="/tags/%E6%B8%B8%E8%AE%B0/" style="font-size: 1.1em; color: #999">游记</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/" style="font-size: 1.1em; color: #999">自动化测试</a> <a href="/tags/%E9%80%86%E5%90%91/" style="font-size: 1.1em; color: #999">逆向</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 1.5em; color: #99a9bf">随笔</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/02/"><span class="card-archive-list-date">2020年02月</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2018/02/"><span class="card-archive-list-date">2018年02月</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2017/10/"><span class="card-archive-list-date">2017年10月</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2017/08/"><span class="card-archive-list-date">2017年08月</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2017/03/"><span class="card-archive-list-date">2017年03月</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2016/11/"><span class="card-archive-list-date">2016年11月</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2016/08/"><span class="card-archive-list-date">2016年08月</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2016/07/"><span class="card-archive-list-date">2016年07月</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">23</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-11-18T12:35:21.170Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Sherlozk</div><div class="framework-info"><span>框架 </span><a href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"><script>function subtitleType () {
+  getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
+    jinrishici.load(result =>{
+      if (true) {
+        const sub = []
+        const content = result.data.content
+        sub.unshift(content)
+        window.typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: false,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = result.data.content
       }
-      if (isMobile()) {
-        FastClick.attach(document.body);
-      }
-    });
-  </script>
+    })
+  })
+}
 
-  
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/lazyload.js"></script>
-  <script type="text/javascript">
-    $(function () {
-      $("#posts").find('img').lazyload({
-        placeholder: "/images/loading.gif",
-        effect: "fadeIn"
-      });
-    });
-  </script>
-</body>
-</html>
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script></div><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
