@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sherlozk.github.io/music/index.html</loc>
+    
+    <lastmod>2022-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sherlozk.github.io/about/index.html</loc>
     
     <lastmod>2022-11-28</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://sherlozk.github.io/categories/index.html</loc>
-    
-    <lastmod>2022-11-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sherlozk.github.io/music/index.html</loc>
     
     <lastmod>2022-11-28</lastmod>
     
@@ -303,13 +303,6 @@
   </url>
   
   <url>
-    <loc>https://sherlozk.github.io/tags/iOS/</loc>
-    <lastmod>2022-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://sherlozk.github.io/tags/Markdown/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -317,7 +310,7 @@
   </url>
   
   <url>
-    <loc>https://sherlozk.github.io/tags/%E6%B8%B8%E8%AE%B0/</loc>
+    <loc>https://sherlozk.github.io/tags/iOS/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -325,6 +318,13 @@
   
   <url>
     <loc>https://sherlozk.github.io/tags/MySQL/</loc>
+    <lastmod>2022-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sherlozk.github.io/tags/%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
